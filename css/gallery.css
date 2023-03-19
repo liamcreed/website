@@ -1,24 +1,3 @@
-.guitar_gallery, .video_gallery, .art_gallery{
-    display: flex;
-    overflow: scroll;
-
-    scroll-snap-type: x mandatory;
-     margin-top: 2vh;
-    margin-bottom: 2vh; 
-
-    gap: 2%;
-
-    height: auto;
-    
-}
-
-.guitar_gallery .guitar, .video_gallery_item, .art_gallery .art{
-    flex-shrink: 0;
-    scroll-snap-align: center;
-
-    text-align: center;
-}
-
 .gallery_dots {
     text-align: center;
     color: lightgrey;
@@ -27,51 +6,100 @@
     font-size: 25px;
 }
 
+.guitar_gallery,
+.video_gallery,
+.art_gallery {
+    display: flex;
+    overflow: scroll;
+
+    scroll-snap-type: x mandatory;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+
+    gap: 2%;
+
+    height: auto;
+
+}
+
+.guitar_gallery_item,
+.video_gallery_item,
+.art_gallery_item {
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
 
 
-.guitar_gallery img {
+    text-align: center;
+}
+
+
+
+
+.guitar_gallery_item {
     width: 23.5%;
 }
 
+.guitar_gallery img {
+    border-radius: 5px;
+}
 
 @media (max-width: 768px) {
-    .guitar_gallery img {
+    .guitar_gallery_item {
         width: 49%;
+    }
+
+    .guitar_gallery img {
+        border-radius: 2.5px;
     }
 }
 
+.art_gallery {
+    height: 50vh;
+}
+
+.art_gallery_item {}
+
+.art_gallery img {
+    border-radius: 5px;
+    min-width: 25vh;
+    max-width: 100%;
+    object-fit: cover;
+    background-color: rgb(235, 235, 235);
+}
+
+@media (max-width: 768px) {
+    .art_gallery {
+        height: 35vh;
+    }
+
+    .art_gallery img {
+        border-radius: 5px;
+        min-width: 20vh;
+        max-width: 100%;
+        object-fit: cover;
+    }
+}
+
+
+
+
+
+
 .video_gallery video {
     width: 44vw;
+    border-radius: 10px;
+}
+
+@media (min-width: 1400px) {
+    .video_gallery video {
+        width: 28.8vw;
+    }
 }
 
 @media (max-width: 768px) {
     .video_gallery video {
         width: 90vw;
-    }
-}
-
-@media (min-width: 1400px) {
-    /* .video_gallery video {
-        width: 28.8vw;
-    }  */
-}
-
-.art_gallery .art
-{
-    width: 23.5%;
-/*     max-width: 47%; */
-}
-
-.art_gallery img {
-    /* height: 100%;
-    width: 100%; */
-    /* max */
-    object-fit: cover;
-}
-
-@media (max-width: 768px) {
-    .art_gallery img {
-        height: 49%;
-        width: auto;
     }
 }
