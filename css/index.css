@@ -71,19 +71,24 @@ body {
     font-size: 36px;
 }
 
-
-
-
 .liam {
-    font-size: 100px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     text-align: center;
-    color: rgb(0, 0, 0);
-    margin: 0;
-    width: 100%;
-    padding: 0;
-    padding-top: 16vh;
-    padding-bottom: 16vh;
 }
+
+.liam img {
+    max-width: 100%;
+    max-height: calc(90vh - 140px);
+}
+
+/* @media (max-width: 768px) {
+    .liam img {
+        width: 90vw;
+        height: auto;
+    }
+}
+ */
 
 
 #cv span {
