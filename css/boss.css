@@ -51,10 +51,10 @@
 
 .boss_item {
 
+    position: absolute;
     Transform: translate(-50%, 0);
     left: 50%;
 
-    position: absolute;
     top: calc(50vh - 1.5vh - 18vh);
     background-color: rgb(0, 0, 0);
     border-radius: 1vh;
