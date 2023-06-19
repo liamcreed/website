@@ -74,7 +74,7 @@ nav {
 }
 
 .nav_item.knob.pot img{
-    transition-duration: 800ms;
+    transition: transform 800ms;
 }
 
 .nav_item.knob.pot img:hover {
@@ -82,7 +82,7 @@ nav {
 }
 
 .nav_item.knob.input img { 
-    transition-duration: 200ms;
+    transition: transform 800ms;
 }
 
 .nav_item.knob.input img:hover {
