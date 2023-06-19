@@ -31,7 +31,7 @@
 .memoryman_text {
     position: absolute;
     transform: rotate(36deg);
-    left: 24%;
+    left: 25%;
     top: 30%;
 }
 
@@ -100,5 +100,16 @@
     background-color: rgb(205, 205, 205);
     border-radius: 50%;
     width: 6%;
+    aspect-ratio: 1/1;
+}
+
+.memoryman_light {
+    position: absolute;
+    top: 5%;
+    left: 15%;
+
+    background-color: rgb(239, 30, 30);
+    border-radius: 50%;
+    width: 2%;
     aspect-ratio: 1/1;
 }
