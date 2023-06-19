@@ -130,31 +130,46 @@
         "pedal_song pedal_song pedal_song"
         "pedal_artist pedal_artist pedal_artist";
 
-    font-size: 2.2vh;
+    font-size: 2vh;
+    font-weight: 500;
 }
 
 .pedal_input {
     grid-area: pedal_input;
+    position: absolute;
+    top: 1vh;
     height: 3vh;
+    right: 1vh;
     /* border: black 1px solid; */
     text-align: right;
 }
 
 .pedal_output {
     grid-area: pedal_output;
+    left: 1vh;
+    position: absolute;
+    top: 1vh;
     height: 3vh;
     /* border: black 1px solid; */
     text-align: left;
 }
 
+@font-face {
+    font-family: BossPedal;
+    src: url(../resources/fonts/BOSS/Boss.otf);
+}
+
+
 .pedal_song {
     grid-area: pedal_song;
    /*  border: black 1px solid; */
-    text-align: center;
-    font-size: 5vh;
+    text-align: left;
+    font-size: 4vh;
+    line-height: 3vh;
     position: absolute;
-    top: -1.5vh;
+    top: -1vh;
     left: 2vh;
+    font-family: BossPedal;
 }
 
 .pedal_artist {
@@ -163,6 +178,7 @@
     position: absolute;
     text-align: right;
     right: 2vh;
+    font-family: BossPedal;
 }
 
 .pedal_gallery {
@@ -173,7 +189,7 @@
     margin-top: 2vh;
     margin-bottom: 2vh;
 
-    gap: 2%;
+
 
     height: auto;
 }
@@ -182,5 +198,5 @@
 {
     flex-shrink: 0;
     scroll-snap-align: center;
-    margin:5vh;
+    margin:3vh;
 }
