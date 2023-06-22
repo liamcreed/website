@@ -30,9 +30,13 @@
     margin-bottom:1em;
 
     text-align: center;
+    background-color: rgb(237, 237, 237);
 }
 
-
+.art_gallery_item img
+{
+    
+}
 
 @media (min-width: 1024px) {
     .guitar_gallery_item {

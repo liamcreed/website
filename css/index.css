@@ -74,15 +74,17 @@ body {
     loading: "lazy";
 } */
 
-.container a:hover {
-    color: rgb(255, 103, 21);
-}
-
 .container a {
     transition: all 200ms ease;
     text-decoration: none;
-    color: rgb(75, 111, 203);
+    /* color: rgb(75, 111, 203); */
+    color: rgb(255, 103, 21);
 }
+.container a:hover {
+    /* color: rgb(255, 103, 21); */
+    color: rgb(75, 111, 203); 
+}
+
 
 .container h2 {
     text-align: center;
@@ -117,7 +119,7 @@ body {
     font-weight: 200;
 }
 
-#quotes {
+#references {
     padding-top: 1vh;
 }
 
@@ -125,9 +127,9 @@ body {
     padding-top: 1vh;
 }
 
-#music {
+#photos {
     padding-top: 1vh;
-    text-align: center;
+
 }
 
 #art {
