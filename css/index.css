@@ -145,4 +145,47 @@ body {
     text-align: center;
 }
 
-.socials {}
+.socials {
+    display: flex;
+    margin: 0 auto; 
+}
+
+.plectrum_container
+{
+    /* outline: black 1px solid; */
+    aspect-ratio: 1/1;
+    width: 20%;
+    position: relative;
+    margin: 0 auto; 
+}
+
+.plectrum_container  { 
+    transition: transform 800ms;
+}
+
+.plectrum_container:hover {
+    transform: scale(1.05);
+}
+.plectrum 
+{
+    height: 100%;
+    width: 100%;
+}
+.plectrum img
+{
+    height: 100%;
+    width: 100%;
+}
+.plectrum_social
+{
+    position: absolute;
+    width: 50%;
+    top: 15%;
+    Transform: translate(-50%, 0);
+    left: 50%;
+}
+.plectrum_social img
+{
+    height: 100%;
+    width: 100%;
+}

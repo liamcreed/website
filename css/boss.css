@@ -5,9 +5,12 @@
     scroll-snap-type: x mandatory;
     margin-top: 2vh;
     margin-bottom: 2vh;
+
+    
 }
 
 .boss_gallery_item {
+    
     width: 30vh;
     /* border: #000000 1px solid; */
     flex-shrink: 0;
