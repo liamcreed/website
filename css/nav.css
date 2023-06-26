@@ -1,8 +1,6 @@
 header {
     position: fixed;
     top: 0;
-    left: 0;
-    right: 0;
     margin: 0 auto;
 
     width: 100%;
@@ -61,6 +59,10 @@ nav {
     font-weight: 900;
     align-items: center;
     font-size: 28px;
+}
+.nav_item.icon img
+{
+    width: 22px;
 }
 
 .nav_item.knob {

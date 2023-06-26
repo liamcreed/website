@@ -16,9 +16,11 @@
     <link rel='stylesheet' type='text/css' media='screen' href='css/gallery.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/boss.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/ehx.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/contact.css'>
 
-    <script src="script.js"></script>
+    
 </head>
+
 
 <body>
     <header>
@@ -30,12 +32,12 @@
             <div class="nav_item menu"><a href="#art">Kunst</a></div>
             <div class="nav_item menu"><a href="#contact">Contact</a></div>
 
-            <div class="nav_item icon"><span class="material-symbols-outlined">description</span></div>
-            <div class="nav_item icon"><span class="material-symbols-outlined">description</span></div>
-            <div class="nav_item icon"><span class="material-symbols-outlined">video_camera_front</span></div>
-            <div class="nav_item icon"><span class="material-symbols-outlined">music_note</span></div>
-            <div class="nav_item icon"><span class="material-symbols-outlined">brush</span></div>
-            <div class="nav_item icon"><span class="material-symbols-outlined">phone_in_talk</span></div>
+            <div class="nav_item icon"><img src="resources/icons/amp/icons/description.svg"></div>
+            <div class="nav_item icon"><img src="resources/icons/amp/icons/group.svg"></div>
+            <div class="nav_item icon"><img src="resources/icons/amp/icons/video_camera_front.svg"></div>
+            <div class="nav_item icon"><img src="resources/icons/amp/icons/photo_library.svg"></div>
+            <div class="nav_item icon"><img src="resources/icons/amp/icons/palette.svg"></div>
+            <div class="nav_item icon"><img src="resources/icons/amp/icons/phone_in_talk.svg"></div>
 
             <div class="nav_item knob input"><a href="#cv"><img src="resources/icons/amp/input.png"></a></div>
             <div class="nav_item knob pot"><a href="#references"><img src="resources/icons/amp/knob.png"></a></div>
@@ -72,6 +74,7 @@
                 Stage bij <a href="https://public.audio" target="_blank">PublicAudio</a>, Week 41, 2022
                 <br>
             </p>
+
             <div class="memoryman_container">
                 <div class="memoryman_triangle"></div>
                 <div class="memoryman_text">
@@ -116,15 +119,18 @@
             <p>
                 Programma’s die ik kan gebruiken:<br>
                 <span>
-                    Logic Pro X, Pro Tools, MuseScore, Blender, Substance Painter, Photoshop, Premiere Pro, After
-                    Effects,
-                    Davinci Resolve, Final Cut Pro, programmeren
-                    in C, C++, HTML en CSS (deze website)<br>
+                    Logic Pro X, Pro Tools, MuseScore, Blender, Substance Painter, Krita, Photoshop, Premiere Pro,
+                    After
+                    Effects, Lightroom, Davinci Resolve, Final Cut Pro, programmeren in C, C++, HTML en CSS (deze
+                    website)<br>
                 </span>
                 <br>
                 Instrumenten die ik kan bespelen:<br>
                 <span>Gitaar, Drums, Basgitaar en Piano</span><br>
                 <br>
+
+            </p>
+            <p>
                 Gitaren die ik heb gebouwd met DIY paketten:<br>
                 <span>
                     2014 Groene Les Paul<br>
@@ -325,9 +331,10 @@
                     </div>
                 </div>
                 <div class="boss_gallery_item">
-                    <div class="boss_container">
+                    <div class="boss_container" style="background-color: rgb(105, 228, 64); color: rgb(0, 0, 0);">
                         <div class="boss_jacks"></div>
-                        <div class="boss_press"></div>
+                        <div class="boss_press" style="background-color: rgb(105, 228, 64); color: rgb(0, 0, 0);">
+                        </div>
                         <div class="boss_item">
                             <video preload="none" controls>
                                 <source src="resources/portfolio/video/conservatoria/patrol_acrobatique.mov"
@@ -340,8 +347,8 @@
                             </div>
                             <div class="boss_knob knob"><a href="#art"><img src="resources/icons/Pedal/knobs.png"></a>
                             </div>
-                            <div class="boss_knob text"><a href="">.WAV</a></div>
-                            <div class="boss_knob text"><a href="">.MP4</a></div>
+                            <div class="boss_knob text"><a style="color: rgb(0, 0, 0);" href="">.WAV</a></div>
+                            <div class="boss_knob text"><a style="color: rgb(0, 0, 0);" href="">.MP4</a></div>
                         </div>
                         <div class="boss_led"></div>
 
@@ -474,15 +481,13 @@
 
         <div id="contact">
             <div class="socials">
-
-
                 <div class="plectrum_container">
-                    <a href="https://github.com/liamcreed" target="_blank">
+                    <a id="email" href="">
                         <div class="plectrum">
                             <img src="resources/icons/socials/plectrum.svg">
                         </div>
                         <div class="plectrum_social">
-                            <img src="resources/icons/socials/github.svg">
+                            <img src="resources/icons/socials/mail.svg">
                         </div>
                     </a>
                 </div>
@@ -496,30 +501,14 @@
                         </div>
                     </a>
                 </div>
-                <div class="plectrum_container">
-                    <a href="https://github.com/liamcreed" target="_blank">
-                        <div class="plectrum">
-                            <img src="resources/icons/socials/plectrum.svg">
-                        </div>
-                        <div class="plectrum_social">
-                            <img src="resources/icons/socials/github.svg">
-                        </div>
-                    </a>
-                </div>
-
             </div>
             <br>
-            <p>
-                Contact:
-                <span>l.j.a.creed</span>
-                <span>[@]</span>
-                <span>gmail.com</span>
-            </p>
+
             Haarlem, Nederland
             <br>
-
         </div>
     </div>
 </body>
-
+<script src="scripts/script.js"></script>
 </html>
+

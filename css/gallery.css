@@ -34,19 +34,16 @@
     background-color: rgb(237, 237, 237);
 }
 
-.art_gallery_item img
-{
-    
+
+
+.guitar_gallery img {
+    border-radius: .5vw;
 }
 
 @media (min-width: 1024px) {
     .guitar_gallery_item {
         width: calc(100%/4 - 2vw*(3/4));
         aspect-ratio: 3 /4;
-    }
-
-    .guitar_gallery img {
-        border-radius: 5px;
     }
 }
 
@@ -55,20 +52,12 @@
         width: calc(100%/3 - 2vw*(2/3));
         aspect-ratio: 3 /4;
     }
-
-    .guitar_gallery img {
-        border-radius: 2.5px;
-    }
 }
 
 @media (max-width: 768px) {
     .guitar_gallery_item {
         width: calc(100%/2 - 2vw*(1/2));
         aspect-ratio: 3 /4;
-    }
-
-    .guitar_gallery img {
-        border-radius: 2.5px;
     }
 }
 
@@ -81,6 +70,7 @@
     width: auto;
     object-fit: cover;
     background-color: rgb(235, 235, 235);
+    border-radius: .5vw;
 }
 
 @media (min-width: 1024px) {
