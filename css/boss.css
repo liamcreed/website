@@ -257,7 +257,7 @@
 }
 
 @font-face {
-    font-family: Bossboss;
+    font-family: BossFont;
     src: url(../resources/fonts/BOSS/Boss.otf);
 }
 
@@ -271,7 +271,7 @@
     position: absolute;
     top: -1vh;
     left: 2vh;
-    font-family: Bossboss;
+    font-family: BossFont;
 }
 
 .boss_artist {
@@ -280,7 +280,7 @@
     position: absolute;
     text-align: right;
     right: 2vh;
-    font-family: Bossboss;
+    font-family: BossFont;
 }
 
 /* .boss_shadow

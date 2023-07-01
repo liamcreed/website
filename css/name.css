@@ -1,0 +1,49 @@
+
+.logo {
+    margin: 0 auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    text-align: center;
+    position: relative;
+}
+.name
+{
+    width: 100%;
+    text-align: center;
+    
+    font-family: OrangeFont;
+    -webkit-text-stroke: #000000 .03em;
+
+}
+.name.outline
+{
+    top: 0;
+    position: absolute;
+    -webkit-text-stroke: #ffffff .01em;
+}
+
+@media (min-width: 1024px) {
+    .logo {
+        font-size: 30vh;
+    }
+}
+
+@media (max-width: 1024px) {
+    .logo {
+        color: blue;
+        font-size: 25vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo {
+        color: green;
+        font-size: 18vh;
+    }
+}
+@media (max-width: 480px) {
+    .logo {
+        color: yellow;
+        font-size: 12vh;
+    }
+}

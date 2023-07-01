@@ -89,26 +89,13 @@ body {
 .container h2 {
     text-align: center;
     font-size: 36px;
+    
+}
+@font-face {
+    font-family: OrangeFont;
+    src: url(../resources/fonts/Orange/AmpedOrange.ttf);
 }
 
-.liam {
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    text-align: center;
-}
-
-.liam img {
-    max-width: 100%;
-    max-height: calc(90vh - 140px);
-}
-
-/* @media (max-width: 768px) {
-    .liam img {
-        width: 90vw;
-        height: auto;
-    }
-}
- */
 
 #cv {
     padding-top: 1vh;
