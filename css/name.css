@@ -5,6 +5,8 @@
     margin-bottom: 5vh;
     text-align: center;
     position: relative;
+
+    
 }
 .name
 {
@@ -30,20 +32,14 @@
 
 @media (max-width: 1024px) {
     .logo {
-        color: blue;
-        font-size: 25vh;
+        /* color: blue; */
+        font-size: 26vh;
     }
 }
 
 @media (max-width: 768px) {
     .logo {
-        color: green;
-        font-size: 18vh;
-    }
-}
-@media (max-width: 480px) {
-    .logo {
-        color: yellow;
-        font-size: 12vh;
+        /* color: green; */
+        font-size: 24vw;
     }
 }

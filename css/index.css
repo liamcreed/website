@@ -30,7 +30,7 @@ body {
 
 .container {
     position: fixed;
-    top: 140px;
+    top: 136px;
 
     left: 0;
     right: 0;
@@ -38,7 +38,6 @@ body {
 
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 5%;
 
     overflow-y: scroll;
     scroll-behavior: smooth;
@@ -98,7 +97,7 @@ body {
 
 
 #cv {
-    padding-top: 1vh;
+  
 }
 
 #cv span {
@@ -107,23 +106,21 @@ body {
 }
 
 #references {
-    padding-top: 1vh;
+    
 }
 
 #videos {
-    padding-top: 1vh;
+    
 }
 
 #photos {
-    padding-top: 1vh;
+
 
 }
 
 #art {
-    padding-top: 1vh;
+
 }
 
-.skills
-{
-    display: flex;
-}
+/* * { outline: 1px solid black; }
+ */
