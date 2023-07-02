@@ -76,6 +76,10 @@
     height: 36%;
     aspect-ratio: 52 / 36;
 }
+.boss_item iframe
+{
+    border-radius: 1vh;
+}
 
 .boss_item video {
     width: 100%;
